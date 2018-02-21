@@ -377,6 +377,9 @@ class sources:
         line1 = line2 = line3 = ""
 	debrid_only = control.setting('debrid.only')
 
+	pre_emp =  control.setting('preemptive.termination')
+        pre_emp_limit = control.setting('preemptive.limit')
+
         source_4k = d_source_4k = 0
         source_1080 = d_source_1080 = 0
         source_720 = d_source_720 = 0
