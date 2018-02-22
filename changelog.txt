@@ -1,5 +1,5 @@
 [B]1.0.6~dev3[/B]
-- Trakt On Deck
+- Trakt On Deck (episodes.py und navigator.py)
 
 [B]1.0.6~dev2[/B]
 - preemptive hinzugefügt (source.py)
