@@ -621,9 +621,9 @@ class episodes:
 
 
             if self.trakt_link in url and url == self.onDeck_link:
-                self.blist = cache.get(self.trakt_progress_list, 720, url, self.trakt_user, self.lang)
+                self.blist = cache.get(self.trakt_episodes_list, 720, url, self.trakt_user, self.lang)
                 self.list = []
-                self.list = cache.get(self.trakt_progress_list, 0, url, self.trakt_user, self.lang)
+                self.list = cache.get(self.trakt_episodes_list, 0, url, self.trakt_user, self.lang)
 
             elif self.trakt_link in url and url == self.mycalendar_link:
                 self.blist = cache.get(self.trakt_episodes_list, 720, url, self.trakt_user, self.lang)
