@@ -1,3 +1,8 @@
+[B]1.0.6~dev4[/B]
+player.py, episodes.py:
+   - Added Trakt Bookmarks Function
+   - Added Auto Resume Option
+
 [B]1.0.6~dev3[/B]
 - Trakt On Deck (episodes.py und navigator.py)
 
