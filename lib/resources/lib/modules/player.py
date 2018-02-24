@@ -60,7 +60,7 @@ class player(xbmc.Player):
             self.ids = {'imdb': self.imdb, 'tvdb': self.tvdb}
             self.ids = dict((k,v) for k, v in self.ids.iteritems() if not v == '0')
 
-            self.offset = bookmarks().get(self.name, self.year)
+            self.offset = bookmarks().get(self.name, season, episode, imdb, self.year)
 
             poster, thumb, meta = self.getMeta(meta)
 
